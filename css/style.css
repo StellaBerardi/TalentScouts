@@ -1,0 +1,250 @@
+body {
+  padding: 0% !important;
+  font-family: "Notable", sans-serif !important;
+  font-weight: 400;
+  font-size: x-large;
+  text-align: center;
+  background: #000;
+}
+
+header {
+  height: 350px;
+  background-color: #f06d16;
+  margin: 0px 0px 0px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logo {
+  width: 100%;
+  height: 290px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#HOMEPAGEfinale {
+  height: 600px;
+  width: auto;
+}
+#spotifyplaylist {height: auto; width: 20%;}
+#struttura {height: auto; width: 50%;}
+#strutturahome {height: auto; width: 45%;}
+#strutturaregioni {height: auto; width: 45%;}
+#strutturaeventi{height: auto; width: 45%;}
+#navbarDropdown {
+  color: #ffffff;
+}
+#navbarDropdown:hover {
+  color: #f06d16;
+}
+#logo {
+  height: 100px;
+  width: 136px;
+}
+.regione {
+  display: flex;
+  justify-content: center;
+}
+.social-artista {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.social-artista a {
+  margin-right: 20px;
+}
+.lista-artisti {
+  margin-bottom: 50px;
+}
+.lista-artisti .singolo-artista {
+  width: 1440px;
+  max-width: 100%;
+  margin: auto;
+}
+#masaaki,
+#Disa,
+#Wacho,
+#babyfacesucco,
+#frero,
+#Mira,
+#Rose,
+#Salwa,
+#Giovie,
+#Antonio,
+#Taizal,
+#Taizal,
+#Myron,
+#Nhio,
+#Michael,
+#lynx,
+#gess {
+  height: auto;
+}
+
+h2 {
+  font-family: "Notable";
+  color: #fff;
+  float: left;
+}
+h4 {font-family: 'Libre Baskerville'; color:#F06D16; float: inline-start;}
+p {font-family: 'Libre Baskerville'; color: #fff; float:inline-start; font-size: small;}
+
+nav {
+  background-color: #000;
+}
+nav ul {
+  list-style: none;
+  margin: 0 auto;
+  padding: 0;
+  width: 100%;
+  max-width: 1200px;
+}
+nav ul li {
+  display: inline-block;
+  font-family: "Fjalla one", sans-serif !important;
+  color: #fff;
+}
+nav ul ul {
+  display: none;
+  position: absolute;
+  top: 90%;
+  left: 50;
+  width: 20%;
+}
+nav ul li:hover ul {
+  display: block;
+}
+nav ul li li {
+  position: relative;
+  float: none;
+  width: 100%;
+  border: none;
+}
+nav ul li a {
+  display: block;
+  text-decoration: none;
+  color: #000;
+  padding: 15px 25px;
+  font: 1.2em;
+  box-sizing: border-box;
+  border-right: solid 2px #000;
+  border-left: solid 2px #000;
+}
+nav ul ul li a {
+  font-size: "Fjalla one";
+  border-bottom: solid 2px #000;
+}
+nav ul ul li:first-child a {
+  border-top: solid 2px #000;
+}
+nav ul li a:hover {
+  background: #000 !important;
+  color: #f06d16;
+  text-decoration: none;
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+}
+.nounderline {
+  text-decoration: none;
+  padding: 10px 10px 10px 10px;
+}
+.whitelink {
+  color: #fff;
+}
+.custom-dropdown,
+.custom-dropdown:hover,
+.custom-dropdown:visited {
+  background-color: #000 !important;
+}
+.custom-dropdown .dropdown-item:hover {
+  color: #f06d16;
+}
+.carousel-eventi {
+  text-align: center;
+  width: 100%;
+  max-width: 100%;
+  margin-top: 35px;
+  margin-bottom: 75px;
+}
+.content-text p {
+  font-family: 'Libre Baskerville';
+  font-size: 16px;
+  color: #ffffff;
+}
+.content-text h3,
+.content-text h4 {
+  font-family: 'Libre Baskerville';
+  color: #f06d16;
+}
+.footer-info {
+  background-color: #f06d16;
+  height: 200px;
+  margin: 0px 0px 0px 0px;
+  color: #000;
+  font-family: "Fjalla one", sans-serif;
+  font-size: small;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-items: center;
+}
+.social-icons a {
+  margin-right: 15px;
+}
+.bottonenomi {
+  font-family: "Fjalla one", sans-serif;
+  font-size: small;
+  background-color: #000;
+  color: #fff;
+  border: none;
+  margin: 6%;
+}
+@media screen and (max-width: 767px) {
+  .content {
+    height: 350px;
+  }
+  .carousel-caption h4 {
+    font-size: 18px;
+  }
+  .carousel-caption p {
+    font-size:16px;
+  }
+  #HOMEPAGEfinale {
+    width: 100%;
+    height: 350px;
+    object-fit: contain;
+    object-position: center;
+  }
+  .lista-artisti {
+    margin-bottom: 85px;
+  }
+  .singolo-artista {
+    margin-bottom: 25px;
+  }
+  .singolo-artista:nth-child(even) .row {
+    flex-direction: column-reverse;
+  }
+  .social-artista a i {
+    font-size: 1em !important;
+  }
+
+}
+@media screen and (max-width: 991px) {
+  .navbar-toggler {
+    border-color: #ffffff !important;
+  }
+    .navbar-dark .navbar-toggler-icon {
+      background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3e%3cpath stroke='rgba(255, 255, 255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+  }
+  .dropdown-item {
+    text-align: center;
+  }
+}
