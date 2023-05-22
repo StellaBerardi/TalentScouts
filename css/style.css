@@ -23,6 +23,9 @@ header {
   justify-content: center;
   align-items: center;
 }
+.active {
+  color: #f06d16;
+}
 #HOMEPAGEfinale {
   height: 600px;
   width: auto;
