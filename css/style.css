@@ -31,11 +31,14 @@ header {
   width: auto;
 }
 #spotifyplaylist {height: auto; width: 20%;}
-#palette {height:auto; width:30%;}
+#palette {height:auto; width: 40%;}
 #struttura {height: auto; width: 70%;}
 #strutturahome {height: auto; width: 50%;}
 #strutturaregioni {height: auto; width: 50%;}
 #strutturaeventi{height: auto; width: 50%;}
+#visualizzazioni {height: auto; width: 50%;}
+#utenti {height: auto; width: 50%;}
+#follower {height: auto; width: 50%;}
 #navbarDropdown {
   color: #ffffff;
 }
